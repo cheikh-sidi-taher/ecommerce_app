@@ -49,14 +49,15 @@ Widget TextButtonForm({
               color: DfaultColor, fontWeight: FontWeight.bold, fontSize: 18),
         ));
 
-
 Widget verificationCode() => Container(
-                  width: 70,
-                  height: 70,
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Colors.grey
-                    ),
-                    borderRadius: BorderRadius.circular(10.0),
-                    color: Colors.white),
-                );
+      width: 70,
+      height: 70,
+      decoration: BoxDecoration(
+          border: Border.all(color: Colors.grey),
+          borderRadius: BorderRadius.circular(10.0),
+          color: Colors.white),
+    );
+
+
+
+
